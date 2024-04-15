@@ -25,10 +25,11 @@
 </script>
 
 <template>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+
+    <nav class="navbar pt-5" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
         
-            <RouterLink class="navbar-item" to="/"><h1 class="title pr-6">logo.. </h1></RouterLink>
+            <RouterLink class="navbar-item" to="/"><h1 class="title pr-6">fernando.. </h1></RouterLink>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
                 data-target="navbarBasicExample">
@@ -40,25 +41,20 @@
         </div>
 
         <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-                <RouterLink class="navbar-item" to="/"> Home </RouterLink>
-                <RouterLink class="navbar-item" to="/about-me"> About Me </RouterLink>
-                <RouterLink class="navbar-item" to="/my-services"> My Services </RouterLink>
-                <RouterLink class="navbar-item" to="/contact-me"> Contac Me </RouterLink>
+            <div class="navbar-end">
+                <RouterLink class="navbar-item" to="/"> home </RouterLink>
+                <RouterLink class="navbar-item" to="/about-me"> about me </RouterLink>
+                <RouterLink class="navbar-item" to="/my-services"> my services </RouterLink>
+                <RouterLink class="navbar-item" to="/portfolio"> portfolio </RouterLink>
+                <RouterLink class="navbar-item" to="/contact-me"> contact me! </RouterLink>
             </div>
 
-            <div class="navbar-end">
+            <div class="navbar-end pr-5">
                 
-                <div class="navbar-item">
-                    <div class="buttons">
-                        <a class="button is-primary">
-                            <strong>Dark</strong>
-                        </a>
-        
-                    </div>
-                </div>
+                <button class="button">Dark</button>
 
             </div>
         </div>
     </nav>
+    
 </template>

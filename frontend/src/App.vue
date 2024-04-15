@@ -3,6 +3,7 @@
   import { RouterView, RouterLink } from 'vue-router'
 
   import NavbarComponent from './components/core/NavbarComponent.vue';
+  import FooterComponent from './components/core/FooterComponent.vue';
 
 </script>
 
@@ -17,5 +18,7 @@
     <RouterView/>
 
   </main>
+
+  <FooterComponent/>
 
 </template>
