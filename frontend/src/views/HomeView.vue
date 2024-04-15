@@ -3,6 +3,12 @@
 
 <template>
 
-  <h1 class="title py-6 is-text-centered">Home Page</h1>
+  <section class="section">
+
+    <div class="hero">
+      <h1 class="title has-text-centered">Home Page</h1>
+    </div>
+
+  </section>
 
 </template>
